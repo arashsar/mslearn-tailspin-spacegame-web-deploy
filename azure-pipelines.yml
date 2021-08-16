@@ -140,7 +140,7 @@ stages:
             displayName: 'Update web app settings'
             inputs:
               azureSubscription: 'Resource Manager - Tailspin - Space Game'
-              appName: $(WebAppName)
+              appName: $(WebAppNameTest)
               resourceGroupName: $(ResourceGroupName)
               appSettings: |
                 [
